@@ -1,0 +1,197 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.seccion3{
+    height: 100vh;
+    position: relative;
+    display: flex;   
+}
+.titulo-form{
+    width: 50%;
+    font-size: 4em;
+    font-family: 'Arial';
+    font-style:oblique;
+    margin: auto;
+}
+.container-form{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    height:600px;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,.9);
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+}
+input[type="text"],input[type="email"]{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin: 5px;
+    margin-top: 30px;
+}
+textarea{
+    width: 90%;
+    height: 100px;
+    min-height: 100px;
+    max-width: 400px;
+    min-width: 100%;
+    max-height: 150px;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 30px;
+}
+.btn-enviar{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    transition: all 0.4s;
+    border: none;
+    font-size: 1.4em;
+    background: crimson;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: white;
+    margin: 5px;
+    font-family: 'Century';
+    margin-top: 30px;
+}
+.btn-enviar:hover{
+    background: rgba(220,20,60,.8);
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.container-info-contratar{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,.6),rgba(0,0,0,.9)), url(microphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container-info-contratar h1{
+    display: flex;
+    color: bisque;
+    font-family: 'Bell MT';
+    font-size: 3em;
+    width: 50%;
+    height: 50%;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0;
+}
+.container-info-contratar p{
+    font-size: 2em;
+    text-align: center;
+    color: indianred;
+    margin-top: 10%;
+}
+
+
+#green{
+        color:green;
+        text-transform: uppercase; font-size: 2.5em; 
+        text-shadow:1px 1px 10px green; 
+        font-family: 'Arial';
+    margin: 20px;
+    }
+
+
+/*PARA CELULAR*/
+
+@media (min-width:300px) and (max-width:1286px)
+{
+    .seccion3{
+        width: 100%;
+        height: 120vh;
+        flex-wrap: wrap;
+    }
+    .container-info-contratar{
+        height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    }
+    .container-info-contratar h1{
+    color: bisque;
+    font-family: 'Bell MT';
+    font-size: 4em;
+    width: 70%;
+    height: 60%; 
+    font-weight: 800;
+    text-align: center;
+}
+    .container-info-contratar p{
+    text-align: center;
+    color: gray;
+    font-size: 5em;
+    margin:auto;
+    
+}
+    .titulo-form{
+        height: 20vh;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .titulo-form h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #green{
+        color:green;
+        text-transform: uppercase; font-size: 5em; 
+        text-shadow:1px 1px 10px green; 
+        font-family: 'Arial';
+        margin: auto;
+    }
+    .container-form{
+        display: flex;
+        height: 100vh;
+        margin:auto;
+        padding: 20px 10px;
+        width: 100%;
+        background: rgba(0,0,0,.8);
+    }
+    input[type="text"],input[type="email"]{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: 100;
+    background: white;
+    }
+    textarea{
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 1.5em;
+    font-weight:300;
+        background: white;
+    }
+    .btn-enviar{
+        font-size: 2.6em;
+        height: 120px;
+    }
+ 
+}

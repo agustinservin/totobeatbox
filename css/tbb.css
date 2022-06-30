@@ -1,0 +1,15 @@
+
+@import 'animate.css';
+@import 'footer.css';
+@import 'menu.css';
+@import 'seccion1.css';
+@import 'seccion2.css';
+@import 'seccion3.css';
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
