@@ -19,6 +19,22 @@ a{
     font-style:oblique;
     margin: auto;
 }
+.titulo-form p{
+    font-size: 0.5em;
+    margin-left: 10%;
+    
+}
+.titulo-form i{
+    display: flex;
+    font-size: 0.5em;
+    position: absolute;
+    color: gray;
+}
+.contacto-info{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
 .container-form{
     display: flex;
     margin: auto;
